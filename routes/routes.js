@@ -1,7 +1,4 @@
 const router = require('express').Router();
-const passport = require('passport');
-const pool = require('../db/pool')
-const bcrypt = require('bcryptjs')
 const controller = require('../controllers/controller.js')
 
 router.post('/login', controller.login);

@@ -1,10 +1,7 @@
 const express = require('express');
 const path = require('node:path')
-// const pg = require('pg');
 const session = require('express-session');
 const passport = require('passport');
-// const LocalStrategy = require('passport-local').Strategy;
-// const bcrypt = require('bcryptjs');
 const routes = require('./routes/routes.js');
 const pgSession = require('connect-pg-simple')(session);
 const pool = require('./db/pool');
